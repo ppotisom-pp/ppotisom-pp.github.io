@@ -1,18 +1,18 @@
 # Site settings
 # These are used to personalize your new site.
-title: Mary Lou Algorithm # your name here
+title: Ponpawit Potisom # your name here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br /> elements if you don't need line breaks)
   CSCI 496: Senior Portfolio<br />
   In partial fulfillment of the requirements for the degree of
-  Bachelor of Science in Computer-Science (class of 2040)
+  Bachelor of Science in Cyber Security (class of 2027)
   <br /><br />
-  <a href="https://example.com/resume">View My Resume</a>
+  <a href="file:///C:/Year%204%202025/Intern/Resume.pdf">View My Resume</a>
   <br /><br />
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
+  <a href="www.linkedin.com/in/ponpawit-potisom-a19a31316">View My LinkedIn Profile</a>
 repository: "csci-csu/csci-portfolio"
-github_username:  username # update with your username
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+github_username:  ppotisom-pp # update with your username
+google_analytics: 377845720 # your Google Analytics tracking ID here
 
 # Build setting
 theme: jekyll-theme-minimal
