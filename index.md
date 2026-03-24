@@ -31,20 +31,20 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Paper 1 Hacking: Right or Wrong? A Christian Perspective](/pdf/sample_presentation.pdf)
+### [Paper 1: Hacking: Right or Wrong? A Christian Perspective](/pdf/sample_presentation.pdf)
 
--   **Class:CSCI-235 Procedural Progamming**  
+-   **Class: CSCI-235 Procedural Progamming**  
 -   **Grade:91/100**
 
-### [Paper 2 Ethics in Responding to Cyber Threats](/pdf/sample_presentation.pdf)
+### [Paper 2:The Ethical Implications of AI on Your Career Field](/pdf/sample_presentation.pdf)
 
--   **Class:CSCI-325 Object Oriented Programming** 
--   **Grade:95/100**
+-   **Class: CSCI-325 Object Oriented Programming** 
+-   **Grade:93/100**
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [Paper 3: Ethics in Responding to Cyber Threats](/pdf/sample_presentation.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class: CSCI-325 Object Oriented Programming** 
+-   **Grade: 95/100**
 
 ---
 
