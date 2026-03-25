@@ -51,7 +51,7 @@ Ethics Papers
 Presentations
 -------------
 
-### [Presentation 1: Understanding PII] (/pdf/Presentation1.pdf)
+### [Presentation 1: Understanding PII](/pdf/Presentation1.pdf)
 
 - **Class: CSCI 352 Cyber Defense** 
 - **Grade: 98/100**
