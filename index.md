@@ -34,12 +34,12 @@ Ethics Papers
 ### [Paper 1: Hacking: Right or Wrong? A Christian Perspective](/pdf/paper1.pdf)
 
 -   **Class: CSCI 235 Procedural Progamming**  
--   **Grade:91/100**
+-   **Grade: 91/100**
 
 ### [Paper 2:The Ethical Implications of AI on Your Career Field](/pdf/paper2.pdf)
 
 -   **Class: CSCI 301 Survey of Scripting Languages** 
--   **Grade:93/100**
+-   **Grade: 93/100**
 
 ### [Paper 3: Ethics in Responding to Cyber Threats](/pdf/paper3.pdf)
 
