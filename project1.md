@@ -32,18 +32,18 @@ If the programming language does not require compilation, the update the heading
 This is a command-line interface (CLI) application that interacts with the user through text prompts.
 
 User Tasks:
-Select a difficulty level (Easy, Medium, Hard)
-Input letter guesses one at a time
-View progress of the phrase as letters are revealed
-Track incorrect guesses
-Choose whether to replay the game
+- Select a difficulty level (Easy, Medium, Hard)
+- Input letter guesses one at a time
+- View progress of the phrase as letters are revealed
+- Track incorrect guesses
+- Choose whether to replay the game
 System Behavior:
-Displays the phrase as underscores for unguessed letters
-Reveals correctly guessed letters in their correct positions
-Tracks incorrect guesses and updates the hangman drawing
+- Displays the phrase as underscores for unguessed letters
+- Reveals correctly guessed letters in their correct positions
+- Tracks incorrect guesses and updates the hangman drawing
 Ends the game when:
-The player guesses the full phrase (win)
-The maximum number of incorrect guesses is reached (loss)
+- The player guesses the full phrase (win)
+- The maximum number of incorrect guesses is reached (loss)
 
 ![screenshot](images/dummy_thumbnail.jpg)  
 Fig 1. The launch screen
