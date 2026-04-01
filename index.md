@@ -12,17 +12,17 @@ Programming Projects
 ![Project 1 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
-### [Project 2 Woodle Cheater | CSCI 325](project1)
+### [Project 2 Woodle Cheater | CSCI 325](project2)
 
 ![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
-### [Project 3 Ethernet Cables + Building LAN project | CSCI 332](project1)
+### [Project 3 Ethernet Cables + Building LAN project | CSCI 332](project3)
 
 ![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
-### [Project 4 Run for bright futures | CSCI 334](project1)
+### [Project 4 Run for bright futures | CSCI 334](project4)
 
 ![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
 
