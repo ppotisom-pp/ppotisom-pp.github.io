@@ -37,10 +37,12 @@ User Tasks:
 - View progress of the phrase as letters are revealed
 - Track incorrect guesses
 - Choose whether to replay the game
+  
 System Behavior:
 - Displays the phrase as underscores for unguessed letters
 - Reveals correctly guessed letters in their correct positions
 - Tracks incorrect guesses and updates the hangman drawing
+  
 Ends the game when:
 - The player guesses the full phrase (win)
 - The maximum number of incorrect guesses is reached (loss)
