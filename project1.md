@@ -19,18 +19,31 @@ The system reads phrases from an external file and organizes them based on diffi
 
 How to compile (if applicable) and run the project.
 
+### Using Visual Studio (Windows)
 ```bash
-g++ Hangman.cpp -o hangman
-./hangman
+cl Hangman.cpp
+.\Hangman.exe
 ```
 
 If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+This is a command-line interface (CLI) application that interacts with the user through text prompts.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+User Tasks:
+Select a difficulty level (Easy, Medium, Hard)
+Input letter guesses one at a time
+View progress of the phrase as letters are revealed
+Track incorrect guesses
+Choose whether to replay the game
+System Behavior:
+Displays the phrase as underscores for unguessed letters
+Reveals correctly guessed letters in their correct positions
+Tracks incorrect guesses and updates the hangman drawing
+Ends the game when:
+The player guesses the full phrase (win)
+The maximum number of incorrect guesses is reached (loss)
 
 ![screenshot](images/dummy_thumbnail.jpg)  
 Fig 1. The launch screen
