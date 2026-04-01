@@ -1,25 +1,27 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Project 1 Hang man 
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
+-   **Class:CSCI-235 Procedural Programming** 
+-   **Grade:98/100** 
+-   **Language(s):C++** 
 -   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+    (Please [email me](mailto:ppotisom@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
-## Project description
+## Project Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project is a console-based implementation of the classic Hangman game, developed in C++. The program allows a user to guess letters in order to uncover a hidden phrase. The game dynamically updates the display after each guess and visually represents incorrect attempts using an ASCII-based gallows.
+
+The system reads phrases from an external file and organizes them based on difficulty. Difficulty is determined by the number of unique letters in each phrase, allowing the game to scale from easy to hard levels. The program uses a structured approach with modular functions to handle tasks such as phrase loading, sorting, game logic, and user interaction.
 
 ## How to compile and run the program
 
 How to compile (if applicable) and run the project.
 
 ```bash
-cd ./project
-python setup.py
+g++ Hangman.cpp -o hangman
+./hangman
 ```
 
 If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
