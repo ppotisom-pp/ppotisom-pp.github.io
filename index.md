@@ -56,8 +56,12 @@ Presentations
 - **Class: CSCI 352 Cyber Defense** 
 - **Grade: 98/100**
 
+### [Presentation 2: Run for bright futures](/pdf/Presentation2.pdf)
 
-### [Presentation 2: Identity Theft - Methods, Impact, and Prevention](/pdf/Presentation2.pdf)
+- **Class: CSCI 334 User-Interface Programming** 
+- **Grade: 95/100**
+
+### [Presentation 2: Identity Theft - Methods, Impact, and Prevention](/pdf/Presentation3.pdf)
 
 - **Class: CSCI/CRIM 405 Principles of Cybersecurity** 
 - **Grade: 90/100**
