@@ -72,16 +72,20 @@ Fig 2. Gameplay showing guesses and hangman drawing
 Fig 3. Winning screen after completing the phrase
 
 ## 3. Additional Considerations
+
 Code Structure
 - Uses a custom struct to store phrase data
 - Breaks the program into multiple functions for clarity
+
 File Handling
 - Reads phrases from an external file (phrases.txt)
 - Allows easy updates by adding more phrases
+
 Logic and Algorithms
 - Sorts phrases by difficulty using selection sort
 - Tracks unique letters to measure difficulty
 - Uses loops and conditionals to control game flow
+
 Input Validation
 - Prevents invalid characters from being used
 - Avoids repeated guesses
