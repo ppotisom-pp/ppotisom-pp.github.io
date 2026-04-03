@@ -18,7 +18,9 @@ At the start of the game, the program randomly selects a phrase from a file. The
 The game includes multiple difficulty levels:
 
 Easy → shorter phrases with fewer unique letters
+
 Medium → balanced difficulty
+
 Hard → longer and more complex phrases
 
 This makes the game more interesting and gives the player a real challenge.
