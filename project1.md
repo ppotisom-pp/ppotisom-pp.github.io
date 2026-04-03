@@ -11,9 +11,19 @@ Project 1 Hang man
 
 ## Project Description
 
-This project is a console-based implementation of the classic Hangman game, developed in C++. The program allows a user to guess letters in order to uncover a hidden phrase. The game dynamically updates the display after each guess and visually represents incorrect attempts using an ASCII-based gallows.
+This project is a fun and interactive version of the classic game Hangman, built using C++. The goal of the game is simple: guess the hidden phrase one letter at a time before the hangman drawing is completed.
 
-The system reads phrases from an external file and organizes them based on difficulty. Difficulty is determined by the number of unique letters in each phrase, allowing the game to scale from easy to hard levels. The program uses a structured approach with modular functions to handle tasks such as phrase loading, sorting, game logic, and user interaction.
+At the start of the game, the program randomly selects a phrase from a file. The phrase is hidden using underscores, and the player must guess letters to reveal it. Every correct guess shows more of the phrase. Every wrong guess adds another part to the hangman drawing.
+
+The game includes multiple difficulty levels:
+
+Easy → shorter phrases with fewer unique letters
+Medium → balanced difficulty
+Hard → longer and more complex phrases
+
+This makes the game more interesting and gives the player a real challenge.
+
+Behind the scenes, the program uses structured logic and multiple functions to manage the game. It handles user input, checks guesses, updates the display, and keeps track of progress.
 
 ## How to compile and run the program
 
@@ -39,26 +49,43 @@ User Tasks:
 - Choose whether to replay the game
   
 System Behavior:
-- Displays the phrase as underscores for unguessed letters
-- Reveals correctly guessed letters in their correct positions
-- Tracks incorrect guesses and updates the hangman drawing
+- Displays the hidden phrase using underscores
+- Reveals letters when guessed correctly
+- Keeps track of incorrect guesses
+- Shows a list of previously guessed wrong letters
+- Draws the hangman step-by-step using ASCII art
   
-Ends the game when:
-- The player guesses the full phrase (win)
-- The maximum number of incorrect guesses is reached (loss)
+Game Rules:
+- You can only guess one letter at a time
+- Repeating a guess will give a warning
+- Invalid input (like numbers or symbols) is not accepted
+- You lose after too many incorrect guesses
+- You win when the full phrase is revealed
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/hang1.png)  
+Fig 1. Starting screen with phrase list and difficulty selection
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/hang2.png)  
+Fig 2. Gameplay showing guesses and hangman drawing
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/hang3.png)  
+Fig 3. Winning screen after completing the phrase
 
 ## 3. Additional Considerations
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Code Structure
+- Uses a custom struct to store phrase data
+- Breaks the program into multiple functions for clarity
+File Handling
+- Reads phrases from an external file (phrases.txt)
+- Allows easy updates by adding more phrases
+Logic and Algorithms
+- Sorts phrases by difficulty using selection sort
+- Tracks unique letters to measure difficulty
+- Uses loops and conditionals to control game flow
+Input Validation
+- Prevents invalid characters from being used
+- Avoids repeated guesses
+- Keeps the game stable and user-friendly 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
