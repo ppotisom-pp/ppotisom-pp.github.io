@@ -9,7 +9,7 @@ Programming Projects
 ---
 ### [Project 1 Hangman | CSCI 235](project1)
 
-![Project 1 Thumbnail Name](images/hangman0.png)
+![Project 1 hangman](images/hangman0.png)
 
 ---
 ### [Project 2 Woodle Cheater | CSCI 325](project2)
