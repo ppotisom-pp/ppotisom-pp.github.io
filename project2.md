@@ -1,47 +1,74 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Project 2 Wordle Cheater
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
+-   **Class: CSCI 325 Object-Oriented Programming** 
+-   **Grade: 97/100** 
+-   **Language(s): Java using NetBeans GUI** 
 -   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+    (Please [email me](mailto:ppotisom@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project is a Wordle helper tool that I built using Java and object oriented programming. I used NetBeans to design a simple graphical user interface.
+
+The program helps the user find the best word to guess next in Wordle. The user enters the word they guessed and then types which letters are green, yellow, or black.
+
+The program reads words from a file and filters them based on the rules. It removes words that do not match the input and keeps only the possible answers. It also suggests a best next guess to help solve the puzzle faster.
+
+I used classes and methods to organize the code and keep it clean. Each part of the program has a clear role, such as handling input, processing words, and updating the display.
+
+This project helped me understand object oriented design, GUI development, and how to manage data using Java.
 
 ## How to compile and run the program
 
 How to compile (if applicable) and run the project.
 
-```bash
-cd ./project
-python setup.py
-```
+Open the project in NetBeans.
+
+Make sure all files are in the same project folder.
+
+Click the Run button at the top.
+
+The program will open a window where you can start using the Wordle helper.
 
 If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+This program uses a graphical interface built in NetBeans.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+The user types a guessed word into the input box.
 
-![screenshot](images/dummy_thumbnail.jpg)  
+There are three input fields for letter feedback.
+
+Green means the letter is correct and in the right place.
+Yellow means the letter is correct but in the wrong place.
+Black means the letter is not in the word.
+
+After clicking the submit button, the program updates the list of possible words.
+
+It also shows the best next guess based on the remaining words.
+
+The user can repeat this process until the correct word is found.
+
+![screenshot](images/wordle2.png)  
 Fig 1. The launch screen
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/wordle3.png)  
 Fig 2. Example output after input is processed.
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/wordle4.png)  
 Fig 3. Feedback when an error occurs.
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+This program runs locally and does not need internet access. All words are stored in a text file inside the project.
+
+One challenge was making sure the filtering logic worked correctly for different cases. Another challenge was organizing the code using object oriented principles.
+
+In the future, I could improve this project by adding colors like the real Wordle game and improving the design of the interface. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
