@@ -12,7 +12,7 @@ Programming Projects
 ![Hang Game Screenshots](images/hang0.png)
 
 ---
-### [Project 2 Woodle Cheater | CSCI 325](project2)
+### [Project 2 Wordle Cheater | CSCI 325](project2)
 
 ![Project 2 Thumbnail Name](images/wordle4.png)
 
