@@ -31,29 +31,24 @@ This project helped me understand object oriented design, GUI development, and h
 ## How to compile and run the program
 
 - Open the project in NetBeans.
-
 - Make sure all files are in the same project folder.
-
 - Click the Run button at the top.
-
 - The program will open a window where you can start using the Wordle helper.
 
 ## UI Design
 
 This program uses a graphical interface built in NetBeans.
-
 The user types a guessed word into the input box.
-
 There are three input fields for letter feedback.
 
 **Green** means the letter is correct and in the right place.
+
 **Yellow** means the letter is correct but in the wrong place.
+
 **Black** means the letter is not in the word.
 
 After clicking the submit button, the program updates the list of possible words.
-
 It also shows the best next guess based on the remaining words.
-
 The user can repeat this process until the correct word is found.
 
 ![screenshot](images/wordle2.png)  
