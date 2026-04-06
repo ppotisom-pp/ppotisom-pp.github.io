@@ -23,17 +23,15 @@ This project helped me understand object oriented design, GUI development, and h
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+- Open the project in NetBeans.
 
-Open the project in NetBeans.
+- Make sure all files are in the same project folder.
 
-Make sure all files are in the same project folder.
+- Click the Run button at the top.
 
-Click the Run button at the top.
+- The program will open a window where you can start using the Wordle helper.
 
-The program will open a window where you can start using the Wordle helper.
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+- If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
