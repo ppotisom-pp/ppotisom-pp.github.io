@@ -68,6 +68,4 @@ One challenge was making sure the filtering logic worked correctly for different
 
 In the future, I could improve this project by adding colors like the real Wordle game and improving the design of the interface. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 [Back to Portfolio](./)
