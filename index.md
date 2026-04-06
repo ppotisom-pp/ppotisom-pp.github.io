@@ -14,7 +14,7 @@ Programming Projects
 ---
 ### [Project 2 Woodle Cheater | CSCI 325](project2)
 
-![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 2 Thumbnail Name](images/wordle4.png)
 
 ---
 ### [Project 3 Ethernet Cables + Building LAN project | CSCI 332](project3)
