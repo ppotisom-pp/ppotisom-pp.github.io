@@ -3,10 +3,10 @@
 Project 1 Hang man 
 ===============
 
--   **Class:CSCI-235 Procedural Programming** 
--   **Grade:98/100** 
--   **Language(s):C++** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
+-   **Class: CSCI-235 Procedural Programming** 
+-   **Grade: 98/100** 
+-   **Language(s): C++** 
+-   **Source Code Repository: Available upon request**
     (Please [email me](mailto:ppotisom@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project Description
@@ -28,10 +28,7 @@ This makes the game more interesting and gives the player a real challenge.
 Behind the scenes, the program uses structured logic and multiple functions to manage the game. It handles user input, checks guesses, updates the display, and keeps track of progress.
 
 ## How to compile and run the program
-
-How to compile (if applicable) and run the project.
-
-### Using Visual Studio (Windows)
+**Using Visual Studio (Windows)**
 ```bash
 cl Hangman.cpp
 .\Hangman.exe
@@ -65,13 +62,13 @@ Game Rules:
 - You win when the full phrase is revealed
 
 ![screenshot](images/hang1.png)  
-Fig 1. Starting screen with phrase list and difficulty selection
+**Fig 1. Starting screen with phrase list and difficulty selection**
 
 ![screenshot](images/hang2.png)  
-Fig 2. Gameplay showing guesses and hangman drawing
+**Fig 2. Gameplay showing guesses and hangman drawing**
 
 ![screenshot](images/hang3.png)  
-Fig 3. Winning screen after completing the phrase
+**Fig 3. Winning screen after completing the phrase**
 
 ## 3. Additional Considerations
 
@@ -92,7 +89,5 @@ Input Validation
 - Prevents invalid characters from being used
 - Avoids repeated guesses
 - Keeps the game stable and user-friendly 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 [Back to Portfolio](./)
