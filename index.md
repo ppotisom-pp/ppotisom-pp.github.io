@@ -19,7 +19,7 @@ Programming Projects
 ---
 ### [Project 3 Ethernet Cables + Building LAN project | CSCI 332](project3)
 
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 3 Thumbnail Name](images/web1.png)
 
 ---
 ### [Project 4 Run for bright futures | CSCI 334](project4)
