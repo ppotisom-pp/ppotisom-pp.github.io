@@ -1,48 +1,65 @@
 [Back to Portfolio](./)
 
-Project 1 Title
-===============
+Project 3 Ethernet Cables + Building LAN project
+=================================================
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class: CSCI 332 Applied Networking** 
+-   **Grade: 100/100** 
+-   **Language(s): HTML, Basic Linux (Bash), Networking (TCP/IP, Samba)** 
+-   **Source Code Repository: Available upon request**
+    (Please [email me](mailto:ppotisom@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project is a networking lab website that shows how to build and test a small network step by step. It includes creating Ethernet cables, setting up a Samba server, and building LAN connections using one router and two routers.
+
+The website explains each part in a simple way and includes real screenshots from our work. We created Ethernet cables by hand, tested them using a cable tester, and used them to connect computers.
+
+We also installed and configured a Samba server on Linux so different computers could share files. After that, we built LAN networks and configured IP addresses to allow communication between devices.
+
+This project helped me understand how real networks work, including cabling, routing, and file sharing between systems.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+- Open the project folder in the Visual Studio Code
+- Open any HTML file (such as index.html) in a web browser
+- Use the navigation links at the top to move between sections
+- View each step of the networking process with explanations and images
 
-```bash
-cd ./project
-python setup.py
-```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+No compilation is required because this project uses HTML.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+The website is designed to be simple and easy to follow.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+- A navigation bar at the top lets users move between sections
+- Each page focuses on one task (cables, server, LAN setup)
+- Images show real steps from the lab
+- Text explains each step clearly in order
+- Users can follow along like a guide
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+The goal of the design is to make learning networking steps easy and organized.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/web2.png)  
+**Fig 1. Samba server configuration and verification using Linux terminal commands.**
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/web3.png)  
+**Fig 2. LAN setup with one router showing device connections and testing.**
+
+![screenshot](images/web4.png)  
+**Fig 3. LAN configuration using two routers demonstrating IP range setup and connectivity.**
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+This project runs locally in a browser and does not need internet access. All content is stored in HTML files and images.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+One challenge was making sure each step was explained clearly and matched the actual setup process. Another challenge was organizing the pages so users could easily follow the workflow.
+
+In the future, this project can be improved by adding:
+
++ better styling with CSS
++ interactive diagrams
++ videos or animations for each step
++ more advanced networking examples
 
 [Back to Portfolio](./)
