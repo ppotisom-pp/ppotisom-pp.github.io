@@ -5,7 +5,7 @@ Project 4 Run for Bright Futures – Charity 5K Website Project
 
 -   **Class: CSCI-334 User Interface Programming** 
 -   **Grade: N/A** 
--   **Language(s):** 
+-   **Language(s): JavaScript, React, HTML, CSS, C# (.NET)** 
 -   **Source Code Repository: Available upon request**
     (Please [email me](mailto:ppotisom@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
