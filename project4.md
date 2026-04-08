@@ -1,48 +1,74 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Project 4 Run for Bright Futures – Charity 5K Website Project
 ===============
 
--   **Class:** 
--   **Grade:** 
+-   **Class: CSCI-334 User Interface Programming** 
+-   **Grade: N/A** 
 -   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Source Code Repository: Available upon request**
+    (Please [email me](mailto:ppotisom@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Run for Bright Futures is a full-stack web application developed for a fictional nonprofit organization hosting a charity 5K run on June 19th. The purpose of the project is to provide a centralized platform where users can learn about the organization’s mission, register for the event, and access important race information.
 
-## How to compile and run the program
+The system focuses on usability and simplicity, allowing users to create accounts, log in securely, and manage their participation. Each user has access to a personalized dashboard where they can view their registration details, team members, and race-day schedule. The platform also includes an admin panel that allows administrators to view, update, and manage all registered participants efficiently.
 
-How to compile (if applicable) and run the project.
+The frontend is built using React with Vite, while the backend is developed using ASP.NET Core Minimal API. Runner data is stored in a JSON file, making the application lightweight and suitable for demonstration purposes.
+
+---
+
+## How to run the program
+
+### Frontend
 
 ```bash
-cd ./project
-python setup.py
+cd "UI Project/charity-run-react/charity-run-react"
+npm install
+npm run dev
 ```
 
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+### Backend
+```bash
+cd "UI Project/charity-run-backend-net10"
+dotnet run
+```
+Once both servers are running, open the frontend URL shown in the terminal (usually http://localhost:5173
+).
 
 ## UI Design
+The application is designed with a clean and simple interface to ensure ease of use for all users.
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+**Users can:**
+- View information about the charity and 5K event
+- Register for the race using a form with validation
+- Log in securely using email and password
+- Access a personal dashboard with race details and team information
+- View race schedule and important reminders
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+**Administrators can:**
+- View all registered runners
+- Manage user data (update, delete, promote to admin)
+- Monitor participation and event organization
+
+**The design follows key UI principles:**
+- Simplicity: clean layout with minimal clutter
+- Usability: easy navigation and clear actions
+- Consistency: uniform design across all pages
+- Feedback: error messages and validation for user inputs
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+**Fig 1. Homepage displaying race information and navigation**
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+**Fig 2. User dashboard showing personal details and schedule**
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+**Fig 3. Login and registration with validation and error handling**
 
 ## 3. Additional Considerations
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 [Back to Portfolio](./)
