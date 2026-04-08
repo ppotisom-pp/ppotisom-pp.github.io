@@ -34,7 +34,8 @@ npm run dev
 cd "UI Project/charity-run-backend-net10"
 dotnet run
 ```
-Once both servers are running, open the frontend URL shown in the terminal 
+Once both servers are running, open the frontend URL shown in the terminal
+
 (usually http://localhost:5173)
 
 ## UI Design
