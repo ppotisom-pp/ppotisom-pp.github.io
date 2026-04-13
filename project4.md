@@ -59,14 +59,14 @@ The application is designed with a clean and simple interface to ensure ease of 
 - Consistency: uniform design across all pages
 - Feedback: error messages and validation for user inputs
 
-![screenshot](images/dummy_thumbnail.jpg)  
-**Fig 1. Homepage displaying race information and navigation**
+![screenshot](images/UI2.png)  
+**Fig 1. Runner dashboard displaying user information, team details, checklist items, and race schedule.**
 
-![screenshot](images/dummy_thumbnail.jpg)  
-**Fig 2. User dashboard showing personal details and schedule**
+![screenshot](images/UI3.png)  
+**Fig 2. Admin management page showing registered runners and admin controls.**
 
-![screenshot](images/dummy_thumbnail.jpg)  
-**Fig 3. Login and registration with validation and error handling**
+![screenshot](images/UI4.png)  
+**Fig 3. Backend API test interface used to verify login and runner data endpoints.**
 
 ## 3. Additional Considerations
 
