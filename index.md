@@ -24,7 +24,7 @@ Programming Projects
 ---
 ### [Project 4 Run for bright futures | CSCI 334](project4)
 
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 4 Thumbnail Name](images/UI1.png)
 
 ---
 
