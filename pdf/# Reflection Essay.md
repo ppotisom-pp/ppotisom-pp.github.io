@@ -1,7 +1,7 @@
 # Reflection Essay
 **Ponpawit Potisom**
-/ **Charleston Southern University**
-Cybersecurity Major
+/ **Charleston Southern University** 
+/ Cybersecurity Major
 
 ---
 
