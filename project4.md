@@ -1,4 +1,4 @@
-[Back to Portfolio](./)
+  [Back to Portfolio](./)
 
 Project 4 Run for Bright Futures – Charity 5K Website Project
 ===============
@@ -68,8 +68,21 @@ The application is designed with a clean and simple interface to ensure ease of 
 ![screenshot](images/UI4.png)  
 **Fig 3. Backend API test interface used to verify login and runner data endpoints.**
 
-## 3. Additional Considerations
+## Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+This project was made to show how a full website works with both frontend and backend parts. Instead of using a database, the runner data is saved in a JSON file. This makes the project simple and easy to run, but it would not work well for a large, real-world system.
+
+The app has a basic login system so users can sign in and see their own dashboard. There is also an admin role that can manage users and make other users admins. In a real system, stronger security would be needed, like encrypting passwords and using safer login methods.
+
+The design of the website focuses on being simple and easy to use. The layout is clean, and users can quickly find what they need. Messages, like login success, help users understand what is happening.
+
+In the future, this project could be improved by:
+- Using a real database to store data
+- Adding better security for user accounts
+- Letting users create and manage teams
+- Showing updates in real time
+- Putting the website online for others to use
+
+Overall, this project shows how different parts of a web application work together while keeping the design simple and easy to understand.
 
 [Back to Portfolio](./)
